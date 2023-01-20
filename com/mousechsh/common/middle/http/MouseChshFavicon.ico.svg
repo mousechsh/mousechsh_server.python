@@ -1,0 +1,24 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<radialGradient spreadMethod="pad" id="fill_rg">
+			<stop
+				offset="0" stop-color="#0000FF"/>
+			<stop
+				offset="1" stop-color="#00FF00"/>
+		</radialGradient>
+	</defs>
+	<g>
+		<ellipse
+			ry="64" rx="64"
+			cy="64" cx="64"
+			stroke-width="0" stroke="#001dff"
+			fill="url(#fill_rg)"/>
+		<text
+			xml:space="preserve"
+			font-family="'Noto Serif CJK SC'" font-size="100"
+			y="103" x="14"
+			stroke-width="0" stroke="#FFFFFF"
+			fill="#FFFFFF"
+		>瑞</text>
+	</g>
+</svg>
