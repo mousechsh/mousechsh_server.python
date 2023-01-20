@@ -15,14 +15,14 @@ __all__ = ["mousechsh_annotation", "mousechsh_annotation_get"]
 
 def mousechsh_annotation(annotation):
 	def _mousechsh_annotation_params(*args_arr, **args_dict):
-		mouse_chsh_annotation_func = None
+		mousechsh_annotation_func = None
 		if len(args_arr) > 0 and callable(args_arr[0]):
-			mouse_chsh_annotation_func = args_arr[0]
+			mousechsh_annotation_func = args_arr[0]
 			args_arr = args_arr[1:]
 
 		def _mousechsh_annotation_func(mousechsh_func=None):
 			if mousechsh_func is None:
-				mousechsh_func = mouse_chsh_annotation_func
+				mousechsh_func = mousechsh_annotation_func
 			if mousechsh_func is None:
 				return
 
