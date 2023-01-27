@@ -1,6 +1,7 @@
 # MouseChsh服务器端
 
-本文更新于【2022年11月17日】
+* [中文版说明](./README.md "Chinese Readme")
+* [English Readme](./README.en.md "英文版说明")
 
 # 概述
 
