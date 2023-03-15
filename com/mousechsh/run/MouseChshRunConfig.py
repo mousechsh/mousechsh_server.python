@@ -9,6 +9,7 @@ __all__ = []
 
 from com.mousechsh.common.sys.MouseChshLoader import mousechsh_loader
 
+mousechsh_loader('com.mousechsh.common.cmd.MouseChshFastCgiServerCmd')
 mousechsh_loader('com.mousechsh.common.cmd.MouseChshHttpClientCmd')
 mousechsh_loader('com.mousechsh.common.cmd.MouseChshHttpServerCmd')
 mousechsh_loader('com.mousechsh.common.cmd.MouseChshTcpClientCmd')
