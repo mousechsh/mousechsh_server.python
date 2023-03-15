@@ -22,10 +22,11 @@ Although in this day and age, it may not make much sense to build a wheel from s
 
 ## Third-party code referenced
 
-| Library      | Version     | Description                       |
-| ------------ | ----------- | --------------------------------- |
-| redis        | 4.3.4       | Redis driver                      |
-| psycopg2     | 2.9.3       | PostgreSQL driver                 |
-| pycryptodome | 3.15.0      | Encryption and decryption library |
-| PyJWT        | 2.4.0       | JWT library                       |
-| SM2          | Source code | GmSSL                             |
+| Library      | Version     | Description                            |
+| ------------ | ----------- | -------------------------------------- |
+| redis        | 4.3.4       | Redis driver                           |
+| psycopg2     | 2.9.3       | PostgreSQL driver                      |
+| pycryptodome | 3.15.0      | Encryption and decryption library      |
+| PyJWT        | 2.4.0       | JWT library                            |
+| GmSSL        | 3.2.2       | Pure-Python SM2/SM3/SM4 implementation |
+| SM2          | Source code | GmSSL                                  |

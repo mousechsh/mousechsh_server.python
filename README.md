@@ -28,4 +28,5 @@ MouseChsh服务器端是一个从零开发的综合服务端。
 | psycopg2     | 2.9.3  | PostgreSQL数据库连接驱动 |
 | pycryptodome | 3.15.0 | 加密解密库               |
 | PyJWT        | 2.4.0  | JWT编码解码库            |
+| GmSSL        | 3.2.2  | 国密算法库               |
 | SM2          | 源码   | GmSSL                    |
